@@ -7,7 +7,7 @@ const jsonc = require("jsonc-parser");
 const debug = true;
 
 const config = jsonc.parse(fs.readFileSync("config.jsonc", "utf8"));
-const isenv = config.setting.env;
+const isenv = config.discord.env;
 
 const DISCORD_TOKEN = isenv
   ? process.env.DISCORD_TOKEN
