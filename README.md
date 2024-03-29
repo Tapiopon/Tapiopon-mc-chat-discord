@@ -8,6 +8,7 @@ Node.js v20.9.0以上で動作するように作られた統合版マインク�
 | Windows        | 11 (64bit)    |
 | Node.js        | v20.9.0       |
 | Npm            | v9.1.2        |
+| discord.js     | v14.14.1      |
 
 
 ## 使い方
